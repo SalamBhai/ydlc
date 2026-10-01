@@ -587,86 +587,135 @@ export const slides: SlideDef[] = [
     id: "personal-branding-demystified",
     title: "Personal Branding: What It Actually Means",
     notes:
-      "DISPEL THE MYTH: Ask the audience: 'What do you think of when you hear Personal Brand?' Many students think it means posting motivational quotes or dancing on video. Clarify: Your personal brand is your REPUTATION AT SCALE. It is: Clarity of Value + Consistency of Execution + Public Evidence. If someone searches your name right now on Google, what appears? Confusion, silence, or clear proof of competence?",
+      "THE FOUNDATION OF PERSONAL BRANDING: Deliver the simplest definition with clarity: 'Personal branding is the intentional practice of shaping how people perceive your skills, character, and value: before you ever say a word.' Walk through the 3 foundational realities: 1. You already have one (every post, interaction, and project already creates an impression whether managed or not). 2. It's about perception (reputation and trust open doors before you speak). 3. Shaping it is a choice (leave it to chance or build proof-of-work on purpose). Highlight the builder's formula: Clarity + Consistency + Verifiable Evidence.",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="04: Personal Branding">
+        {/* Top Header */}
         <div>
-          <h2 className="slide-title">
-            Personal Branding:
-            <span className="text-[#0D5C3A] ml-3">What It Actually Means</span>
+          <div className="flex items-center gap-3">
+            <span className="font-mono text-xs font-black uppercase tracking-widest text-[#0D5C3A] bg-[#EAF7ED] border-2 border-[#0D5C3A] px-3 py-0.5">
+              THE FOUNDATION
+            </span>
+            <span className="font-mono text-xs font-bold uppercase tracking-wider text-[#0A1128]/70">
+              Reputation · Perception · Proof of Work
+            </span>
+          </div>
+          <h2 className="slide-title mt-2">
+            What Is Personal Branding?
+            <span className="text-[#0D5C3A] ml-3 text-2xl lg:text-3xl font-normal font-sans">
+              (The Simplest Definition)
+            </span>
           </h2>
-          <p className="slide-subtitle mt-2 text-[#0A1128]/80 font-normal">
-            It is not hype, noise, or social media fame. It is simply what people trust you to deliver.
-          </p>
         </div>
 
-        <div className="grid grid-cols-12 gap-8 items-stretch flex-1 my-4">
-          <Card className="col-span-5 p-8 flex flex-col justify-between" tone="paper">
-            <div>
-              <Kicker tone="white">What It Is NOT</Kicker>
-              <ul className="mt-6 space-y-4">
-                <Bullet tone="dark">
-                  <strong>Not Social Media Numbers:</strong> Having thousands of followers or likes doesn't mean anyone trusts your skills or will hire you.
-                </Bullet>
-                <Bullet tone="dark">
-                  <strong>Not Fancy Titles:</strong> Calling yourself a "CEO", "Strategist", or "Visionary" before you have solved real problems for anyone.
-                </Bullet>
-                <Bullet tone="dark">
-                  <strong>Not Reposting Motivation:</strong> Copying and pasting quotes without sharing your own experiences, lessons, or honest work.
-                </Bullet>
-              </ul>
+        {/* The Simplest Definition Hero Banner */}
+        <div className="my-3 p-5 bg-[#08331D] text-white border-[3px] border-[#0A1128] shadow-[6px_6px_0_0_#0D5C3A] flex items-center justify-between gap-6">
+          <div className="flex items-center gap-4">
+            <div className="p-3 bg-[#82C987] text-[#08331D] border-2 border-[#0A1128] shadow-[2px_2px_0_0_#0A1128] shrink-0">
+              <Sparkles className="h-6 w-6" />
             </div>
-            <div className="bg-[#FAF7EE] border-2 border-[#0A1128] p-4 brut-sm">
-              <p className="font-mono text-sm font-bold text-[#0A1128]">
-                "Noise and hype fade quickly. Real work speaks for you anywhere in the world."
+            <div>
+              <span className="font-mono text-xs font-black uppercase tracking-widest text-[#82C987]">
+                The Simplest Definition:
+              </span>
+              <p className="font-display text-2xl lg:text-3xl font-extrabold text-[#FAF7EE] leading-snug mt-0.5">
+                "Personal branding is the intentional practice of shaping how people perceive your skills, character, and value: before you ever say a word."
               </p>
             </div>
-          </Card>
+          </div>
+          <div className="hidden xl:flex flex-col justify-center shrink-0 border-l-2 border-white/20 pl-6 text-right max-w-[250px]">
+            <span className="font-mono text-[11px] font-black uppercase tracking-wider text-[#82C987]">
+              In One Sentence:
+            </span>
+            <p className="font-mono text-sm font-bold text-white mt-1">
+              What people trust you to deliver when you are not in the room.
+            </p>
+          </div>
+        </div>
 
-          <Card className="col-span-7 p-8 flex flex-col justify-between" tone="blue">
+        {/* The 3 Core Realities */}
+        <div className="grid grid-cols-3 gap-6 flex-1 items-stretch my-2">
+          {/* Pillar 01 */}
+          <div className="p-5 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex flex-col justify-between">
             <div>
-              <div className="flex items-center justify-between">
-                <span className="brut-flat border-[3px] border-white bg-white text-[#0D5C3A] px-4 py-1.5 font-mono text-xs font-bold uppercase tracking-widest shadow-[3px_3px_0_0_#000]">
-                  The 3 Simple Essentials
+              <div className="flex items-center justify-between pb-2.5 border-b-2 border-[#0A1128]/15">
+                <span className="px-2.5 py-0.5 bg-[#EAF7ED] text-[#0D5C3A] font-mono text-xs font-black uppercase border border-[#0D5C3A]">
+                  01 · REALITY
                 </span>
-                <Sparkles className="h-8 w-8 text-white" />
+                <Users className="h-5 w-5 text-[#0D5C3A]" />
               </div>
-
-              <div className="mt-6 space-y-4">
-                <div className="p-4 bg-white text-[#0A1128] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
-                  <h4 className="font-display text-xl font-extrabold text-[#0D5C3A]">
-                    1. What Problem Do You Solve? (Clarity)
-                  </h4>
-                  <p className="text-sm mt-1 text-[#0A1128]/90 font-medium">
-                    Can a friend, recruiter, or collaborator explain what you do in one simple sentence without getting confused?
-                  </p>
-                </div>
-
-                <div className="p-4 bg-white text-[#0A1128] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
-                  <h4 className="font-display text-xl font-extrabold text-[#0D5C3A]">
-                    2. Show Real Evidence (Proof of Work)
-                  </h4>
-                  <p className="text-sm mt-1 text-[#0A1128]/90 font-medium">
-                    Don't just claim skills. Show real examples: projects completed, events organized, articles written, or campus initiatives led.
-                  </p>
-                </div>
-
-                <div className="p-4 bg-white text-[#0A1128] border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
-                  <h4 className="font-display text-xl font-extrabold text-[#0D5C3A]">
-                    3. Can People Depend On You? (Reliability)
-                  </h4>
-                  <p className="text-sm mt-1 text-[#0A1128]/90 font-medium">
-                    Do you meet deadlines? Do you communicate honestly? When people work with you, do they trust you to get it done?
-                  </p>
-                </div>
-              </div>
+              <h3 className="font-display text-xl font-extrabold text-[#0A1128] mt-3">
+                You Already Have One
+              </h3>
+              <p className="text-sm text-[#0A1128]/85 font-medium mt-2 leading-relaxed">
+                Every post, conversation, and piece of work you put out already shapes how people see you: whether you are actively managing it or not.
+              </p>
             </div>
-            <div className="border-t border-white/30 pt-3">
-              <span className="text-xs font-mono font-bold tracking-wider uppercase text-white/90">
-                Personal Brand = What people say about your work ethic and character when you leave the room.
+            <div className="mt-3 pt-2.5 border-t-2 border-[#0A1128]/10">
+              <span className="text-xs font-mono font-bold text-[#0D5C3A] uppercase tracking-wider">
+                Passive presence is still a brand.
               </span>
             </div>
-          </Card>
+          </div>
+
+          {/* Pillar 02 */}
+          <div className="p-5 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between pb-2.5 border-b-2 border-[#0A1128]/15">
+                <span className="px-2.5 py-0.5 bg-[#EAF7ED] text-[#0D5C3A] font-mono text-xs font-black uppercase border border-[#0D5C3A]">
+                  02 · MECHANISM
+                </span>
+                <Target className="h-5 w-5 text-[#0D5C3A]" />
+              </div>
+              <h3 className="font-display text-xl font-extrabold text-[#0A1128] mt-3">
+                It's About Perception
+              </h3>
+              <p className="text-sm text-[#0A1128]/85 font-medium mt-2 leading-relaxed">
+                People act on the impression and credibility you leave, not just your actual ability. Reputation opens or closes doors before a conversation even starts.
+              </p>
+            </div>
+            <div className="mt-3 pt-2.5 border-t-2 border-[#0A1128]/10">
+              <span className="text-xs font-mono font-bold text-[#0D5C3A] uppercase tracking-wider">
+                Reputation precedes opportunity.
+              </span>
+            </div>
+          </div>
+
+          {/* Pillar 03 */}
+          <div className="p-5 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128] flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between pb-2.5 border-b-2 border-[#0A1128]/15">
+                <span className="px-2.5 py-0.5 bg-[#EAF7ED] text-[#0D5C3A] font-mono text-xs font-black uppercase border border-[#0D5C3A]">
+                  03 · DECISION
+                </span>
+                <CheckCircle2 className="h-5 w-5 text-[#0D5C3A]" />
+              </div>
+              <h3 className="font-display text-xl font-extrabold text-[#0A1128] mt-3">
+                Shaping It Is A Choice
+              </h3>
+              <p className="text-sm text-[#0A1128]/85 font-medium mt-2 leading-relaxed">
+                The only question is whether you leave that impression to chance, or shape it on purpose through clear proof-of-work and character.
+              </p>
+            </div>
+            <div className="mt-3 pt-2.5 border-t-2 border-[#0A1128]/10">
+              <span className="text-xs font-mono font-bold text-[#0D5C3A] uppercase tracking-wider">
+                Proof of work beats empty claims.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Formula Banner */}
+        <div className="p-3 bg-[#FAF7EE] border-2 border-[#0A1128] shadow-[3px_3px_0_0_#0A1128] flex items-center justify-between shrink-0">
+          <span className="font-mono text-xs font-extrabold uppercase text-[#0D5C3A] tracking-wider">
+            THE BUILDER'S FORMULA:
+          </span>
+          <span className="font-mono text-xs font-black text-[#0A1128] tracking-wide">
+            Personal Brand = Clarity of Problem Solved + Consistency of Execution + Verifiable Evidence
+          </span>
+          <span className="font-mono text-xs font-bold text-[#0A1128]/70 uppercase hidden md:inline">
+            Signal Over Noise
+          </span>
         </div>
       </SlideLayout>
     ),
