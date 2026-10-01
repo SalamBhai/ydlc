@@ -166,7 +166,7 @@ export const slides: SlideDef[] = [
                   </span>
                 </div>
                 <p className="font-display text-3xl font-extrabold text-[#0A1128] mt-4 leading-snug">
-                  "Youths have become influencers and performing artists—not builders."
+                  "Youths have become influencers and performing artists, not builders."
                 </p>
                 <p className="text-xl text-[#0A1128]/85 mt-3 leading-relaxed font-semibold">
                   Subjecting ourselves to mediocrity, chasing digital validation, and mistakenly believing there is no longer value in deep craft and excellence.
@@ -224,7 +224,7 @@ export const slides: SlideDef[] = [
           <div className="p-7 bg-white border-[4px] border-[#0A1128] shadow-[10px_10px_0_0_#0D5C3A] flex flex-col justify-between shrink-0">
             <div className="flex items-center justify-between pb-3 mb-4 border-b-[3px] border-[#0A1128]/20">
               <span className="font-mono text-sm font-extrabold uppercase tracking-wider text-[#0D5C3A]">
-                The Critique Is Not Condemnatory — It Is A Blueprint For Systemic Transition
+                The Critique Is Not Condemnatory: It Is A Blueprint For Systemic Transition
               </span>
               <span className="text-xs font-mono font-extrabold text-[#0A1128]/80 uppercase">
                 3 Imperative Levers For Our Generation
@@ -270,7 +270,7 @@ export const slides: SlideDef[] = [
                   </span>
                 </div>
                 <p className="text-base font-bold text-[#0A1128] leading-snug mt-1">
-                  Accepting that older leadership will pass down broken systems—making it our imperative duty to construct functional institutions and long-term assets.
+                  Accepting that older leadership will pass down broken systems, making it our imperative duty to construct functional institutions and long-term assets.
                 </p>
               </div>
             </div>
@@ -818,7 +818,7 @@ export const slides: SlideDef[] = [
     id: "glocal-to-global",
     title: "Going GLOCAL to GLOBAL: The UN Ambition Without the Groundwork",
     notes:
-      "A MAJOR PUNCHLINE OF THE NIGHT: Deliver this with candor and tough love. Too many Nigerian youths want to speak at the United Nations General Assembly, hold international fellowship titles, or become global NGO directors—yet they haven't volunteered at their local LGA, haven't solved a problem on their campus, or haven't published a single case study of grassroots work. Global institutions are looking for operatives with SOIL ON THEIR SHOES. If you can't organize 20 students in your university department, how do you expect to lead a global coalition?",
+      "A MAJOR PUNCHLINE OF THE NIGHT: Deliver this with candor and tough love. Too many Nigerian youths want to speak at the United Nations General Assembly, hold international fellowship titles, or become global NGO directors, yet they haven't volunteered at their local LGA, haven't solved a problem on their campus, or haven't published a single case study of grassroots work. Global institutions are looking for operatives with SOIL ON THEIR SHOES. If you can't organize 20 students in your university department, how do you expect to lead a global coalition?",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="06: The Groundwork Imperative">
         <div>
@@ -932,7 +932,7 @@ export const slides: SlideDef[] = [
               <div className="mt-6 p-4 bg-white border-2 border-red-500 shadow-[3px_3px_0_0_#DC2626]">
                 <p className="font-mono text-sm text-red-600 font-bold uppercase">Resume Line Item:</p>
                 <p className="italic text-base text-[#0A1128] mt-2">
-                  "Member / Ambassador, Student Community Chapter (2025 – 2026). Attended meetings, helped with events, and posted on WhatsApp groups."
+                  "Member / Ambassador, Student Community Chapter (2025 - 2026). Attended meetings, helped with events, and posted on WhatsApp groups."
                 </p>
               </div>
               <p className="text-sm text-[#0A1128]/70 mt-4 leading-relaxed font-semibold">
@@ -1431,7 +1431,7 @@ export const slides: SlideDef[] = [
                 </p>
                 <ul className="text-xs font-bold text-[#0A1128] space-y-1">
                   <li>• <strong className="text-sm">Millennium Campus Network (MCN)</strong> &amp; <strong className="text-sm">The Bridge Program</strong></li>
-                  <li>• <strong className="text-sm">LEAP Africa</strong> (SIP &amp; Nigeria Youth Futures Fund — NYFF Grants)</li>
+                  <li>• <strong className="text-sm">LEAP Africa</strong> (SIP &amp; Nigeria Youth Futures Fund / NYFF Grants)</li>
                   <li>• <strong className="text-sm">3MTT Nigeria (NITDA)</strong> &amp; <strong className="text-sm">Tony Elumelu Foundation ($5k Seed)</strong></li>
                 </ul>
               </div>

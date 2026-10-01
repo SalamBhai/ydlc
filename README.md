@@ -1,6 +1,6 @@
 # The Long Game: Reinventing Yourself for a Borderless Future
 **Presenter: Sheriffdeen Saula (Software Engineer · Builder · Strategist)**  
-**Event:** Growth Through Learning — Keynote Experience  
+**Event:** Growth Through Learning: Keynote Experience  
 **Edition:** Nigeria Independence Special (Youth Leadership & Development)  
 **Date:** October 1st · Nigeria Independence Day Special
 
@@ -33,7 +33,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 13-Slide Keynote Architecture
 
-1. **Cover:** *The Long Game — Reinventing Yourself for a Borderless Future*
+1. **Cover:** *The Long Game: Reinventing Yourself for a Borderless Future*
 2. **The Strategic Imperative:** *The Need for Global Opportunities (Local Ceiling vs. Borderless Scale)*
 3. **Grounding & Philosophy:** *My Philosophy of Change (Engineering Agency)*
 4. **Access Vehicles:** *The Two Gateways (Skill/Academic Route vs. Social Impact Route)*
