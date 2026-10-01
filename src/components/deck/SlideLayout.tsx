@@ -82,7 +82,7 @@ export function SlideLayout({
             className="slide-footer tracking-widest uppercase opacity-80 font-bold"
             style={{ fontSize: 16 }}
           >
-            Nigeria Independence Special · NOUN Ambassadors Bootcamp
+            Nigeria Independence Special · Youth Leadership Keynote
           </span>
         </footer>
       </div>

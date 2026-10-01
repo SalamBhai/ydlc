@@ -884,7 +884,7 @@ export const slides: SlideDef[] = [
 
               <ul className="mt-6 space-y-4">
                 <Bullet>
-                  <strong className="text-[#0D5C3A]">Fix Campus Friction:</strong> Organize a peer tutoring circle at NOUN, build a simple timetable bot, or lead a financial literacy drive for Cowrywise.
+                  <strong className="text-[#0D5C3A]">Fix Campus Friction:</strong> Organize a peer tutoring circle on your campus, build a simple timetable bot, or lead a financial literacy drive for your community.
                 </Bullet>
                 <Bullet>
                   <strong className="text-[#0D5C3A]">Document the Metrics:</strong> Don't just say you helped; document that you mobilized 140 students, reduced dropout risk, or processed 500 records.
@@ -932,7 +932,7 @@ export const slides: SlideDef[] = [
               <div className="mt-6 p-4 bg-white border-2 border-red-500 shadow-[3px_3px_0_0_#DC2626]">
                 <p className="font-mono text-sm text-red-600 font-bold uppercase">Resume Line Item:</p>
                 <p className="italic text-base text-[#0A1128] mt-2">
-                  "Member / Ambassador, Cowrywise NOUN Chapter (2025 – 2026). Attended meetings, helped with events, and posted on WhatsApp groups."
+                  "Member / Ambassador, Student Community Chapter (2025 – 2026). Attended meetings, helped with events, and posted on WhatsApp groups."
                 </p>
               </div>
               <p className="text-sm text-[#0A1128]/70 mt-4 leading-relaxed font-semibold">
@@ -956,7 +956,7 @@ export const slides: SlideDef[] = [
               <div className="mt-6 p-5 bg-white border-[3px] border-[#0A1128] shadow-[4px_4px_0_0_#0A1128]">
                 <p className="font-mono text-sm text-[#0D5C3A] font-bold uppercase">The Optimized Impact Bullet:</p>
                 <p className="text-base text-[#0A1128] font-semibold mt-2 leading-relaxed">
-                  "Spearheaded a 4-day virtual career bootcamp for 350+ NOUN students across 12 study centers, curating 6 industry speakers, coordinating logistics on Google Meet, and boosting financial literacy registrations by 85%."
+                  "Spearheaded a 4-day virtual career bootcamp for 350+ university students across 12 study centers, curating 6 industry speakers, coordinating logistics on Google Meet, and boosting financial literacy registrations by 85%."
                 </p>
               </div>
 
@@ -1480,7 +1480,7 @@ export const slides: SlideDef[] = [
     id: "closing-play-the-long-game",
     title: "Closing & Q/A: Play The Long Game",
     notes:
-      "GRAND FINALE & CALL TO ACTION: Reiterate: Landing your first opportunity is just day 0. The real test is: Can you reinvent yourself year after year? Thank the NOUN Cowrywise Ambassadors for having you. Point to the live QR code and invite everyone to scan it to connect on LinkedIn, Twitter/X, and explore your projects. Open the floor for live questions on Google Meet!",
+      "GRAND FINALE & CALL TO ACTION: Reiterate: Landing your first opportunity is just day 0. The real test is: Can you reinvent yourself year after year? Thank the organizers and attendees for having you. Point to the live QR code and invite everyone to scan it to connect on LinkedIn, Twitter/X, and explore your projects. Open the floor for live questions on Google Meet!",
     render: ({ index, total }) => (
       <SlideLayout index={index} total={total} label="12: The Grand Finale" tone="deep">
         <div className="grid grid-cols-12 gap-10 items-center flex-1 my-auto">

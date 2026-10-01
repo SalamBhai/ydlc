@@ -1,8 +1,8 @@
 # The Long Game: Reinventing Yourself for a Borderless Future
 **Presenter: Sheriffdeen Saula (Software Engineer · Builder · Strategist)**  
-**Event:** Growth Through Learning — The Cowrywise Bootcamp Experience  
-**Host:** NOUN Ambassadors (National Open University of Nigeria)  
-**Date:** Saturday, 26th September · 7:00 PM (Live on Google Meet)
+**Event:** Growth Through Learning — Keynote Experience  
+**Edition:** Nigeria Independence Special (Youth Leadership & Development)  
+**Date:** October 1st · Nigeria Independence Day Special
 
 ---
 

@@ -84,7 +84,7 @@ export function App() {
             THE LONG GAME
           </span>
           <span className="hidden sm:inline text-xs font-bold uppercase tracking-[0.16em] bg-[#EAF7ED] border-2 border-[#0A1128] px-3 py-1 text-[#0D5C3A]">
-            Independence Edition · NOUN Keynote
+            Independence Edition · Youth Leadership Keynote
           </span>
         </div>
 
